@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<body>
+
+<h1> Επικεφαλίδα 1 </h1>
+<p> Παράγραφος </p>
+<h1> Επικεφαλίδα 1 </h1>
+<p> Παράγραφος </p>
+<h1> Επικεφαλίδα 1 </h1>
+<p> Παράγραφος </p>
+<h1> Επικεφαλίδα 1 </h1>
+<p> Παράγραφος </p>
+<h1> Επικεφαλίδα 1 </h1>
+<p> Παράγραφος </p>
+
+<button type="button" onclick="document.write(5+6)">
+  Κλικ εδώ
+</button>
+
+
+
+
+<p id="result">  </p>
+
+<script>
+let x =6 ;
+let y = 2;
+
+let z = x + y ;
+let z1 = x - y;
+let z2 = x * y ;
+let z3 = x / y ;
+let z4 = y%x;
+let z5 =  y**x;
+let z6 = x++;
+let z7 = x -- ;
+
+let z8 = "Hello";
+
+z8 += " World";
+
+
+let z9 = "5 " + 5 ;
+
+let a = 50;
+let b = 3;
+
+// document.getElementById('result1').innerHTML = (a == 6);
+
+
+
+let ilikia = 20;
+let fylo = "male";
+let text = " den mporeis na mpeis sto bar";
+
+if (ilikia >=18 && fylo == "male")  {
+
+  text = " mporeiw na mpeiw sto bar";
+
+}
+document.getElementById('result').innerHTML = text;
+
+
+
+
+
+
+</script>
+
+</body>
+
+
+
+</html>
+
+
+<!--  document.write(5+6) διαγράφει όλο το HTML Και κρατάει μόνο αυτό
+window.alert() == alert()
+console.log(5+5) σε google chrome είναι με f12 και console
+-= *= **=
+αριθμητικοί τελεστές + - / * % ++ -- =+ ** και ολοι με = μετά δηλαδή -= κτλ
+συγκριτικοί τελεστές == != > >= < <=
+λογικοί τελεστές  && || !
+if (ilikia >=18)  {
+  if (fylo == "male") {
+  text = " mporeiw na mpeiw sto bar";
+}
+} nestedif
+
+
+if (ilikia >=18 && fylo == "male")  {
+
+  text = " mporeiw na mpeiw sto bar";
+
+} ιδιο με nestedif αλλά πιο ορθό προγραμματιστικά
